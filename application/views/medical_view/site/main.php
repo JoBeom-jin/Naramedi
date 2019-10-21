@@ -114,6 +114,7 @@ label {opacity:0.7}
         font-family: NotoSansCJKkr-Medium, Noto Sans CJK KR;
         font-weight: 500;
         letter-spacing: -0.02em;
+        
         }
 .splash_title { position:absolute; top:27%;left:25%;color:#fff;font-size:20px;font-family:Sandoll GongbyunggakPen, Sandoll GongbyunggakPen;font-weight:500;}
 
@@ -121,6 +122,10 @@ label {opacity:0.7}
         max-width:360px;
         float:left;
         margin-top:192px;
+}
+
+input::placeholder {
+  color: #fff;
 }
 </style>
 
@@ -136,8 +141,10 @@ label {opacity:0.7}
 <img id="alert_back" src="/resource/images/main/nemo.svg">
 
 <div id="c_alert">
-<img src="/resource/images/main/splash_esc.svg" onclick="close_esc()" class="c_btn" style="border-bottom-left-radius: 14px;margin-left: 26px;">
+<div style="text-align:center">
+<img src="/resource/images/main/splash_esc.svg" onclick="close_esc()" class="c_btn" style="border-bottom-left-radius: 14px;">
 <img src="/resource/images/main/splash_exit.svg" onclick="close_exit()" class="c_btn" style="border-bottom-right-radius: 14px;">
+</div>
 </div>
 
 <div id="c_alert2">
@@ -147,9 +154,8 @@ label {opacity:0.7}
 <!-- 메인 이미지 -->
         <img src="/resource/images/main/splash_title2.png" class="splash_title">        
 	<img src="/resource/images/main/splash3.svg" width="100%" height="100%">
-	<button class="start_btn" type="button" onclick="start_c()">
-		<img src="/resource/images/main/start_btn.svg" width="106px" height="40px">
-	</button>
+	
+	<img src="/resource/images/main/btn_start.svg"  class="start_btn" width="100%" style="max-width:104px;"  onclick="start_c()">
 
 <div id="myModal" class="modal2">
 
@@ -163,9 +169,9 @@ label {opacity:0.7}
 <!-- <img src="/resource/images/main/q_00_yes.svg" style="top:43%;max-width:84px;" class="q_sub_title" width="100%">
 <img src="/resource/images/main/q_00_no.svg" style="top:48%;max-width:42px;"  onclick="next();" class="q_sub_title" width="100%"> -->
 
-<p style="top:46%;min-width:84px;opacity:1;" class="q_sub_title" onclick="next();"><input style="display:none;" type="radio" name="yes" id="yes_1" value="yes_1"><label class="uncheck_text" onclick="change_radio(this)" for="yes_1">네.예약했어요.</label></p>
+<p style="top:46%;min-width:84px;opacity:1;" class="q_sub_title" onclick="next();"><input style="display:none;" type="radio" name="yes" id="yes_1" value="yes_1"><label id="yes_1" class="uncheck_text" onclick="change_radio(this)" for="yes_1">네.예약했어요.</label></p>
 
-<p style="top:52%;min-width:42px;opacity:1;" class="q_sub_title" onclick="next();"><input style="display:none;" type="radio" name="yes" id="yes_2" value="yes_2"><label class="uncheck_text" onclick="change_radio(this)" for="yes_2">아니요.</label></p>
+<p style="top:52%;min-width:42px;opacity:1;" class="q_sub_title" onclick="next();"><input style="display:none;" type="radio" name="yes" id="yes_2" value="yes_2"><label id="yes_2" class="uncheck_text" onclick="change_radio(this)" for="yes_2">아니요.</label></p>
 
 <img src="/resource/images/main/btn_next.svg" id="btn_next" class="btn_next" style=" display: none;" onclick="next_c1()">
 
@@ -225,7 +231,7 @@ label {opacity:0.7}
 	<p style="fill: #fff;">당신의 이름을 알려주세요</p>
 </div>
 
-<input type="text" name="name_text" id="name_text" class="name_text" placeholder="이름" onkeyup="name_c()" style="border-bottom: 2px solid #FFFFFF; background:none; border-top:none; border-right:none; border-left:none; color:#FFFFFF; opacity:0.7;background-image:url('/resource/images/main/ic_check_disable.png'); 
+<input type="text" name="name_text" id="name_text" class="name_text" placeholder="이름" onkeyup="name_c()" style="border-radius:0px;border-bottom: 2px solid #FFFFFF; background:none; border-top:none; border-right:none; border-left:none; color:#FFFFFF; opacity:0.7;background-image:url('/resource/images/main/ic_check_disable.png'); 
         background-position:right 0px;background-repeat:no-repeat;">
 
 <img src="/resource/images/main/btn_next.svg" class="btn_next" id="btn_next2" style="display:none;left:30%;"  onclick="next_c3()">
@@ -255,7 +261,7 @@ label {opacity:0.7}
 </div>
 
 <input type="text" id="date_text" class="date_text" placeholder="생년월일" 
-maxlength="6" oninput="numberMaxLength(this);" onkeyup="birth_c()" style="border-bottom: 2px solid #FFFFFF; background:none; border-top:none; border-right:none; border-left:none; color:#FFFFFF; opacity:0.7; background-image:url('/resource/images/main/ic_check_disable.png'); 
+maxlength="6" oninput="numberMaxLength(this);" onkeyup="birth_c()" style="border-bottom: 2px solid #FFFFFF;border-radius:0px; background:none; border-top:none; border-right:none; border-left:none; color:#FFFFFF; opacity:0.7; background-image:url('/resource/images/main/ic_check_disable.png'); 
         background-position:right 0px;background-repeat:no-repeat;">
 
 

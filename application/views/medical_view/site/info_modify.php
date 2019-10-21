@@ -71,7 +71,7 @@ transform: translate( -50%, -50% );
 label {opacity:0.7}
 
 
-#c_alert { display:none; position: absolute; max-width: 720px; width:100%; z-index: 1000; margin-top:108px; height:186px; background-image:url('/resource/images/main/exit_alert.svg');}
+#c_alert { display:none; position: absolute; max-width: 720px; width:100%; z-index: 1000; margin-top:108px; height:186px; background-image:url('/resource/images/main/exit_alert.svg');background-position: center; background-reqeat:no-repeat;}
 .q_close { position: absolute; margin: 16px; max-width: 48vw; }
 .q_title { position: absolute; top: 27%; left: 13%; min-width: 212px;}
 .q_sub_title { position: absolute; left: 13%; color:white;}
@@ -138,9 +138,9 @@ label {opacity:0.7}
 <!-- <img src="/resource/images/main/q_01_yes.svg" style="top:43%;max-width:115px;" class="q_sub_title" width="100%">
 <img src="/resource/images/main/q_01_no.svg" style="top:48%;max-width:112px;"  onclick="next();" class="q_sub_title" width="100%"> -->
 
-<p style="top:46%;min-width:84px;" class="q_sub_title" onclick="next1();"><input style="display:none;" type="radio" name="yes2" id="yes_11" value="yes_11"><label class="uncheck_text" onclick="change_radio(this)" for="yes_11">네.올해대상자에요.</label></p>
+<p style="top:46%;min-width:84px;" class="q_sub_title" onclick="next1();"><input style="display:none;" type="radio" name="yes2" id="yes_11" value="yes_11"><label id="yes_111" class="uncheck_text" onclick="change_radio(this)" for="yes_11">네.올해대상자에요.</label></p>
 
-<p style="top:52%;min-width:42px;" class="q_sub_title" onclick="next1();"><input style="display:none;" type="radio" name="yes2" id="yes_22" value="yes_22"><label class="uncheck_text" onclick="change_radio(this)" for="yes_22">아니요.모르겠어요.</label></p>
+<p style="top:52%;min-width:42px;" class="q_sub_title" onclick="next1();"><input style="display:none;" type="radio" name="yes2" id="yes_22" value="yes_22"><label id="yes_222" class="uncheck_text" onclick="change_radio(this)" for="yes_22">아니요.모르겠어요.</label></p>
 
 
 
@@ -221,9 +221,9 @@ maxlength="6" oninput="numberMaxLength(this);" onkeyup="birth_c()" style="border
 	<p style="fill: #fff;">성별을 알려주세요</p>
 </div>
 
-<p class="gender" onclick="next2();" id="man"><input style="display:none;" type="radio" name="gender" id="gender_1" value="gender_1"><label class="uncheck_text" onclick="change_radio(this)" for="gender_1">남자</label></p>
+<p class="gender" onclick="next2();" id="man"><input style="display:none;" type="radio" name="gender" id="gender_1" value="gender_1"><label id="gender_111" class="uncheck_text" onclick="change_radio(this)" for="gender_1">남자</label></p>
 
-<p style="top: 49%;" onclick="next2();" class="gender" id="woman"><input style="display:none;" type="radio" name="gender" id="gender_2" value="gender_2"><label class="uncheck_text" onclick="change_radio(this)" for="gender_2">여자</label></p>
+<p style="top: 49%;" onclick="next2();" class="gender" id="woman"><input style="display:none;" type="radio" name="gender" id="gender_2" value="gender_2"><label id="gender_222" class="uncheck_text" onclick="change_radio(this)" for="gender_2">여자</label></p>
 
 
 
@@ -251,9 +251,9 @@ maxlength="6" oninput="numberMaxLength(this);" onkeyup="birth_c()" style="border
 	<p style="fill: #fff;">자녀가 있으신가요?</p>
 </div>
 
-<p class="gender" id="man" onclick="next3();"><input style="display:none;" type="radio" name="child" id="child_1" value="child_1"><label class="uncheck_text" onclick="change_radio(this)" for="child_1">예.있어요.</label></p>
+<p class="gender" id="man" onclick="next3();"><input style="display:none;" type="radio" name="child" id="child_1" value="child_1"><label id="child_111" class="uncheck_text" onclick="change_radio(this)" for="child_1">예.있어요.</label></p>
 
-<p style="top: 49%;" class="gender" id="woman" onclick="next3();"><input style="display:none;" type="radio" name="child" id="child_2" value="child_2"><label class="uncheck_text" onclick="change_radio(this)" for="child_2">아니요.없습니다.</label></p>
+<p style="top: 49%;" class="gender" id="woman" onclick="next3();"><input style="display:none;" type="radio" name="child" id="child_2" value="child_2"><label id="child_222" class="uncheck_text" onclick="change_radio(this)" for="child_2">아니요.없습니다.</label></p>
 
 
 
@@ -332,6 +332,12 @@ var code = sessionStorage.getItem("code");
 if(code == 1){
         modal2.style.display = "block";
       //  $('#yes22').prop('checked', true);
+      if(y == "네.올해대상자에요."){
+        $('#yes_111').addClass('check');    
+      }
+      else{
+        $('#yes_222').addClass('check');    
+      }
 }
 else if(code == 2){
         modal3.style.display = "block";
@@ -343,9 +349,21 @@ else if(code == 3){
 }
 else if(code == 4){
         modal5.style.display = "block";
+        if(g == "남자"){
+        $('#gender_111').addClass('check');         
+        }
+        else{
+        $('#gender_222').addClass('check');    
+      }
 }
 else if(code == 5){
         modal6.style.display = "block";
+        if(c == "예.있어요."){
+        $('#child_111').addClass('check');         
+        }
+        else{
+        $('#child_222').addClass('check');    
+      }
 }
 
 

@@ -307,6 +307,10 @@
 }
 
 
+input:focus {
+        color:#00A7AF;
+}
+
 
 
 </style>
