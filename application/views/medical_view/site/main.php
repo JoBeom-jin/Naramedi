@@ -1,6 +1,20 @@
 
 <style>
 
+
+
+@font-face {
+  font-family: NotoSansCJKkr-Medium;
+  src: local(NotoSansCJKkr-Medium),
+       local(NotoSansCJKkr-Medium),
+       url(NotoSansCJKkr-Medium.eot?#iefix) format('embedded-opentype'),
+       url(NotoSansCJKkr-Medium.woff) format('woff'),
+       url(NotoSansCJKkr-Medium.ttf) format('truetype');
+  font-style: normal;
+  font-weight: normal;
+  unicode-range: U+0-10FFFF;
+}
+
 radio input[type="radio"]{
 	display:none;
 }
