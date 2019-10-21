@@ -1,0 +1,57 @@
+<svg id="ic_휴일검진" xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f1f1f1;
+      }
+
+      .cls-2 {
+        fill: #3d33c1;
+      }
+
+      .cls-3 {
+        fill: #3fc7ef;
+      }
+    </style>
+  </defs>
+  <circle id="타원_42" data-name="타원 42" class="cls-1" cx="28" cy="28" r="28"/>
+  <g id="그룹_464" data-name="그룹 464" transform="translate(16.998 16.972)">
+    <path id="패스_39" data-name="패스 39" class="cls-2" d="M314.535,799.243H296.373a1.771,1.771,0,0,1-1.791-1.748V782.143a.421.421,0,0,1,.842,0v15.352a.929.929,0,0,0,.949.906h18.162a.929.929,0,0,0,.948-.906V782.3a.421.421,0,1,1,.842,0v15.191A1.771,1.771,0,0,1,314.535,799.243Z" transform="translate(-294.458 -778.182)"/>
+    <g id="그룹_463" data-name="그룹 463" transform="translate(0 1.327)">
+      <g id="그룹_461" data-name="그룹 461" transform="translate(4.209 5.557)">
+        <g id="그룹_452" data-name="그룹 452">
+          <rect id="사각형_145" data-name="사각형 145" class="cls-3" width="3.681" height="2.81"/>
+        </g>
+        <g id="그룹_453" data-name="그룹 453" transform="translate(5.168)">
+          <rect id="사각형_146" data-name="사각형 146" class="cls-3" width="3.681" height="2.81"/>
+        </g>
+        <g id="그룹_454" data-name="그룹 454" transform="translate(10.334)">
+          <rect id="사각형_147" data-name="사각형 147" class="cls-3" width="3.682" height="2.81"/>
+        </g>
+        <g id="그룹_455" data-name="그룹 455" transform="translate(0 4.157)">
+          <rect id="사각형_148" data-name="사각형 148" class="cls-3" width="3.681" height="2.809"/>
+        </g>
+        <g id="그룹_456" data-name="그룹 456" transform="translate(5.168 4.157)">
+          <rect id="사각형_149" data-name="사각형 149" class="cls-3" width="3.681" height="2.809"/>
+        </g>
+        <g id="그룹_457" data-name="그룹 457" transform="translate(10.334 4.157)">
+          <rect id="사각형_150" data-name="사각형 150" class="cls-3" width="3.682" height="2.809"/>
+        </g>
+        <g id="그룹_458" data-name="그룹 458" transform="translate(0 8.313)">
+          <rect id="사각형_151" data-name="사각형 151" class="cls-3" width="3.681" height="2.809"/>
+        </g>
+        <g id="그룹_459" data-name="그룹 459" transform="translate(5.168 8.313)">
+          <rect id="사각형_152" data-name="사각형 152" class="cls-3" width="3.681" height="2.809"/>
+        </g>
+        <g id="그룹_460" data-name="그룹 460" transform="translate(10.334 8.313)">
+          <rect id="사각형_153" data-name="사각형 153" class="cls-3" width="3.682" height="2.809"/>
+        </g>
+      </g>
+      <g id="그룹_462" data-name="그룹 462">
+        <path id="패스_40" data-name="패스 40" class="cls-3" d="M316.289,779.727a1.792,1.792,0,0,0-1.733-1.949h-18.5a1.972,1.972,0,0,0-1.7,2.149v.887h21.928Z" transform="translate(-294.361 -777.778)"/>
+      </g>
+    </g>
+    <path id="패스_41" data-name="패스 41" class="cls-2" d="M304.815,778.511a.421.421,0,0,1-.421-.421v-2.257a.421.421,0,0,1,.842,0v2.257A.421.421,0,0,1,304.815,778.511Z" transform="translate(-298.765 -775.413)"/>
+    <path id="패스_42" data-name="패스 42" class="cls-2" d="M323.233,778.511a.421.421,0,0,1-.421-.421v-2.257a.421.421,0,0,1,.842,0v2.257A.421.421,0,0,1,323.233,778.511Z" transform="translate(-306.848 -775.413)"/>
+  </g>
+</svg>

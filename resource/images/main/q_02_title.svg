@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="191" height="54" viewBox="0 0 191 54">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-size: 18px;
+        font-family: NotoSansCJKkr-Medium, Noto Sans CJK KR;
+        font-weight: 500;
+        letter-spacing: -0.02em;
+      }
+    </style>
+  </defs>
+  <text id="반갑습니다._당신의_이름을_알려주세요." data-name="반갑습니다.
+당신의 이름을 알려주세요." class="cls-1" transform="translate(0 21)"><tspan x="0" y="0">반갑습니다.</tspan><tspan x="0" y="27">당신의 이름을 알려주세요.</tspan></text>
+</svg>

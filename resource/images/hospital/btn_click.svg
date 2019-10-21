@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="48" viewBox="0 0 360 48">
+  <g id="그룹_1307" data-name="그룹 1307" transform="translate(-535 -297)">
+    <g id="btn_navigtion" transform="translate(535 297)">
+      <rect id="header" width="360" height="48" fill="none"/>
+    </g>
+    <g id="그룹_1306" data-name="그룹 1306" transform="translate(535 249)">
+      <text id="_38개_병원보기" data-name="38개 병원보기" transform="translate(108 79)" fill="#00a7af" font-size="16" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" letter-spacing="-0.02em"><tspan x="0" y="0">38개 </tspan><tspan y="0" fill="#707070">병원보기</tspan></text>
+      <g id="ic_drop_down_gray" transform="translate(228 60)">
+        <g id="그룹_922" data-name="그룹 922" transform="translate(24 24) rotate(180)">
+          <rect id="사각형_593" data-name="사각형 593" width="24" height="24" fill="none"/>
+          <g id="그룹_293" data-name="그룹 293" transform="translate(18.44 8.343) rotate(90)">
+            <path id="Path_3384" data-name="Path 3384" d="M0,6.564,7.657,0" transform="translate(0 0)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1.5"/>
+            <path id="Path_3383" data-name="Path 3383" d="M0,0,7.657,6.876" transform="translate(0 6.564)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1.5"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

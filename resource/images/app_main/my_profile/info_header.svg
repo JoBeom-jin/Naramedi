@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360" height="144" viewBox="0 0 360 144">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00a7af"/>
+      <stop offset="1" stop-color="#320586"/>
+    </linearGradient>
+  </defs>
+  <rect id="사각형_621" data-name="사각형 621" width="360" height="144" fill="url(#linear-gradient)"/>
+</svg>

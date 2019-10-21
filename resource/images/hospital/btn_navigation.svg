@@ -1,0 +1,13 @@
+<svg id="btn_navigtion" xmlns="http://www.w3.org/2000/svg" width="360" height="48" viewBox="0 0 360 48">
+  <rect id="header" width="360" height="48" fill="#00a7af"/>
+  <g id="그룹_929" data-name="그룹 929" transform="translate(-14 -593)">
+    <text id="_38개_병원보기" data-name="38개 병원보기" transform="translate(170 624)" fill="#fff" font-size="16" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500"><tspan x="-47.72" y="0">38개 병원보기</tspan></text>
+    <g id="구성_요소" data-name="구성 요소" transform="translate(242 605)">
+      <rect id="사각형_593" data-name="사각형 593" width="24" height="24" fill="none"/>
+      <g id="그룹_293" data-name="그룹 293" transform="translate(18.44 8.343) rotate(90)">
+        <path id="Path_3384" data-name="Path 3384" d="M0,6.564,7.657,0" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
+        <path id="Path_3383" data-name="Path 3383" d="M0,0,7.657,6.876" transform="translate(0 6.564)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

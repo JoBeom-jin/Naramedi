@@ -1,0 +1,184 @@
+{
+    "data": [
+        {
+            "id": 1,
+
+            "title": "한신종합검진센터",
+            "location": "서울시 강남구 논현동 38-2 3층",
+            "latitude": 37.512358,
+            "longitude": 127.007967,
+	    "type": "제휴업체",
+	     "type_icon": "assets/icons/notok.png",
+            "rating": 4,
+            "gallery":
+                [
+                    "assets/img/items/1.jpg",
+                    "assets/img/items/5.jpg",
+                    "assets/img/items/4.jpg"
+                ],
+            "features":
+                [
+                    "Free Parking",
+                    "Cards Accepted",
+                    "Wi-Fi",
+                    "Air Condition",
+                    "Reservations",
+                    "Teambuildings",
+                    "Places to seat"
+                ],
+            "date_created": "2014-11-03",
+            "price": "event",
+            "featured": 0,
+            "color": "",
+            "person_id": 1,
+            "year": 1980,
+            "special_offer": 0,
+
+            "description": "Curabitur odio nibh, luctus non pulvinar a, ultricies ac diam. Donec neque massa, viverra interdum eros ut, imperdiet pellentesque mauris. Proin sit amet scelerisque risus. Donec semper semper erat ut mollis. Curabitur suscipit, justo eu dignissim lacinia, ante sapien pharetra duin consectetur eros augue sed ex. Donec a odio rutrum, hendrerit sapien vitae, euismod arcu.",
+            "last_review": "Curabitur odio nibh, luctus non pulvinar a, ultricies ac diam. Donec neque massa, viverra interdum eros ut, imperdiet",
+            "last_review_rating": 5
+        },
+        {
+            "id": 2,
+            "title": "놀부 종합검진",
+            "location": "서울시 강남구 논현동 38-2 3층",
+            "latitude": 37.512358,
+            "longitude": 127.008967,
+            "type_icon": "assets/icons/ok.png",
+            "rating": 5,
+            "gallery":
+                [
+                    "assets/img/items/2.jpg"
+                ],
+            "color": "",
+            "item_specific":
+                {
+                    "menu": "$6.50",
+                    "offer1": "Chicken wings",
+                    "offer1_price": "4.50",
+                    "offer2": "Mushroom ragout",
+                    "offer2_price": "3.60",
+                    "offer3": "Nice salad with tuna, beans and hard-boiled egg",
+                    "offer3_price": "1.20"
+                }
+        },
+        {
+            "id": 3,
+            "title": "흥부네 의원",
+            "location": "서울시 강남구 논현동 38-2 3층",
+            "latitude": 37.512358,
+            "longitude": 127.007987,
+	     "type_icon": "assets/icons/ok.png",
+            "rating": 2,
+            "gallery":
+                [
+                    "assets/img/items/3.jpg"
+                ],
+            "color": ""
+        },
+        {
+            "id": 4,
+            "title": "여긴 또 어딘가",
+            "location": "서울시 강남구 논현동 38-2 3층",
+            "latitude": 37.512358,
+            "longitude": 127.007767,
+	     "type_icon": "assets/icons/ok.png",
+	    "featured": 0,
+            "rating": 0,
+            "gallery":
+                [
+                    "assets/img/items/4.jpg"
+                ],
+            "color": ""
+        },
+        {
+            "id": 5,
+            "title": "난 또 누구인가",
+            "location": "서울시 강남구 논현동 38-2 3층",
+            "latitude": 37.512658,
+            "longitude": 127.007967,
+            "type_icon": "assets/icons/ok.png",
+            "rating": 4,
+            "gallery":
+                [
+                    "assets/img/items/5.jpg"
+                ],
+            "color": ""
+        },
+        {
+            "id": 6,
+            "title": "아무거나",
+            "location": "서울시 강남구 논현동 38-2 3층",
+            "latitude": 37.512358,
+            "longitude": 127.009967,
+            "type_icon": "assets/icons/notok.png",
+            "rating": 5,
+            "gallery":
+                [
+                    "assets/img/items/6.jpg"
+                ],
+            "color": ""
+        },
+        {
+            "id": 7,
+            "title": "지어보세",
+            "location": "서울시 강남구 논현동 38-2 3층",
+            "latitude": 37.512358,
+            "longitude": 127.017967,
+	    "type_icon": "assets/icons/ok.png",
+	    "rating": 4,
+            "gallery":
+                [
+                    "assets/img/items/7.jpg"
+                ],
+            "color": ""
+        },
+        {
+            "id": 8,
+            "title": "하다보면",
+            "location": "서울시 강남구 논현동 38-2 3층",
+            "latitude": 37.512358,
+            "longitude": 127.007997,
+	     "type_icon": "assets/icons/notok.png",
+            "rating": 4,
+            "featured": 0,
+            "gallery":
+                [
+                    "assets/img/items/2.jpg"
+                ],
+            "color": ""
+        },
+        {
+            "id": 9,
+            "title": "끝이나리",
+            "location": "서울시 강남구 논현동 38-2 3층",
+            "latitude": 37.512350,
+            "longitude": 127.007967,
+            "type": "Restaurant",
+	     "type_icon": "assets/icons/ok.png",
+            "rating": 4,
+            "gallery":
+                [
+                    "assets/img/items/5.jpg"
+                ],
+            "color": ""
+        },
+        {
+            "id": 10,
+            "title": "에헤라디야",
+            "location": "서울시 강남구 논현동 38-2 3층",
+            "latitude": 37.512358,
+            "longitude": 127.007367,
+            "type": "Restaurant",
+	     "type_icon": "assets/icons/notok.png",
+            "rating": 4,
+            "gallery":
+                [
+                    "assets/img/items/1.jpg"
+                ],
+            "color": ""
+        }
+
+
+    ]
+}

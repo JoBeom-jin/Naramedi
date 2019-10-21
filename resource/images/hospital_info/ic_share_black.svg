@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #111;
+        stroke: #707070;
+        opacity: 0;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-linecap: round;
+      }
+
+      .cls-2, .cls-3, .cls-5 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #000;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+
+      .cls-3 {
+        stroke: #111;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="ic_share_balck" transform="translate(1 1)">
+    <g id="사각형_518" data-name="사각형 518" class="cls-1">
+      <rect class="cls-4" width="24" height="24"/>
+      <rect class="cls-5" x="-0.5" y="-0.5" width="25" height="25"/>
+    </g>
+    <g id="그룹_764" data-name="그룹 764" transform="translate(1 2)">
+      <path id="패스_200" data-name="패스 200" class="cls-2" d="M4,12v6.5a1.534,1.534,0,0,0,1.422,1.625h8.533A1.534,1.534,0,0,0,15.377,18.5V12" transform="translate(1 -2.499)"/>
+      <path id="패스_201" data-name="패스 201" class="cls-2" d="M14.176,5.251,11.088,2,8,5.251" transform="translate(-0.4 1)"/>
+      <line id="선_209" data-name="선 209" class="cls-3" y2="10.565" transform="translate(10.689 3)"/>
+    </g>
+  </g>
+</svg>

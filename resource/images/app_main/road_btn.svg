@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="65" height="24" viewBox="0 0 65 24">
+  <g id="그룹_1304" data-name="그룹 1304" transform="translate(-229 -228)">
+    <text id="길찾기" transform="translate(261 245)" fill="#707070" font-size="12" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" letter-spacing="-0.02em"><tspan x="0" y="0">길찾기</tspan></text>
+    <g id="구성_요소_1" data-name="구성 요소 1" transform="translate(229 228)">
+      <g id="그룹_1099" data-name="그룹 1099" transform="translate(3 3)">
+        <path id="패스_303" data-name="패스 303" d="M352.228,1502.472l-5.67-5.67a2.984,2.984,0,0,0-4.22,0l-5.67,5.67a2.984,2.984,0,0,0,0,4.22l5.67,5.67a2.984,2.984,0,0,0,4.22,0l5.67-5.67A2.984,2.984,0,0,0,352.228,1502.472Zm-3.728,4.71v-1.421h-3.28v3.79H343.51v-8.508h-1.255l2.193-3.021,2.193,3.021h-1.421v3.007h3.28V1502.8l3.021,2.193Z" transform="translate(-335.794 -1495.928)" fill="#707070"/>
+      </g>
+      <rect id="사각형_587" data-name="사각형 587" width="24" height="24" fill="none"/>
+    </g>
+  </g>
+</svg>

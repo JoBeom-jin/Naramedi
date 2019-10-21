@@ -1,0 +1,21 @@
+<svg id="ic_arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <rect id="bg" class="cls-1" width="24" height="24"/>
+  <g id="arrow-left">
+    <line id="선_36" data-name="선 36" class="cls-2" x1="14" transform="translate(5 12)"/>
+    <path id="패스_12" data-name="패스 12" class="cls-2" d="M12,19,5,12l7-7"/>
+  </g>
+</svg>

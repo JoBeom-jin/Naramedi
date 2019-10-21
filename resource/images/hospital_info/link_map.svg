@@ -1,0 +1,14 @@
+<svg id="link_map" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <rect id="사각형_616" data-name="사각형 616" width="64" height="64" fill="#111" opacity="0"/>
+  <g id="그룹_892" data-name="그룹 892" transform="translate(-262 -609)">
+    <g id="그룹_879" data-name="그룹 879" transform="translate(0 236)">
+      <text id="길찾기" transform="translate(278 424)" fill="#111" font-size="12" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" letter-spacing="-0.02em"><tspan x="0" y="0">길찾기</tspan></text>
+      <g id="구성_요소" data-name="구성 요소" transform="translate(282 381)">
+        <g id="그룹_791" data-name="그룹 791" transform="translate(-332.794 -1492.928)">
+          <path id="패스_303" data-name="패스 303" d="M352.228,1502.472l-5.67-5.67a2.984,2.984,0,0,0-4.22,0l-5.67,5.67a2.984,2.984,0,0,0,0,4.22l5.67,5.67a2.984,2.984,0,0,0,4.22,0l5.67-5.67A2.984,2.984,0,0,0,352.228,1502.472Zm-3.728,4.71v-1.421h-3.28v3.79H343.51v-8.508h-1.255l2.193-3.021,2.193,3.021h-1.421v3.007h3.28V1502.8l3.021,2.193Z" transform="translate(0)" fill="#111"/>
+        </g>
+        <rect id="사각형_587" data-name="사각형 587" width="24" height="24" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+#board-list{ }
+
+#notice p{clear:both; border:1px solid #e3e3e3; width:90%; height:26px; padding:10px 0; margin:0 auto;}
+#notice strong{font-weight:bold; font-size:16px;}
+
+#board-view .image-list{margin:10px 0; text-align:center;}
+.strong{font-weight:bold;}
+textarea.reply-textarea{height:60px;}
+
+#reply-form{}
+#reply-form .submit-btn{padding:24px 12px;}
+#reply-form .reply-area{margin-top:8px;}

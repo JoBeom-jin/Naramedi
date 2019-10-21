@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="84" height="20" viewBox="0 0 84 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-size: 14px;
+        font-family: NotoSansCJKkr-Medium, Noto Sans CJK KR;
+        font-weight: 500;
+        letter-spacing: -0.02em;
+      }
+    </style>
+  </defs>
+  <text id="네.예약했어요." class="cls-1" transform="translate(0 16)"><tspan x="0" y="0">네.예약했어요.</tspan></text>
+</svg>

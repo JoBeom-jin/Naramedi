@@ -1,0 +1,27 @@
+<svg id="btn_search" xmlns="http://www.w3.org/2000/svg" width="192" height="40" viewBox="0 0 192 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00a7af;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 14px;
+        font-family: NotoSansCJKkr-Regular, Noto Sans CJK KR;
+        letter-spacing: -0.02em;
+      }
+
+      .cls-3 {
+        fill: #f7f7f7;
+      }
+    </style>
+  </defs>
+  <rect id="사각형_142" data-name="사각형 142" class="cls-1" width="192" height="40" rx="20"/>
+  <g id="그룹_798" data-name="그룹 798" transform="translate(-80 -1000)">
+    <text id="지도에서_병원찾기" data-name="지도에서 병원찾기" class="cls-2" transform="translate(140 1026)"><tspan x="0" y="0">지도에서 병원찾기</tspan></text>
+    <g id="구성_요소" data-name="구성 요소" transform="translate(110 1008)">
+      <path id="패스_17" data-name="패스 17" class="cls-3" d="M-13.947,426.857a12,12,0,0,0-12,12,12,12,0,0,0,12,12,12,12,0,0,0,12-12A12,12,0,0,0-13.947,426.857Zm5.58,14.288h-3.291v3.292h-4.58v-3.292H-19.53V436.57h3.292v-3.294h4.58v3.294h3.291Z" transform="translate(25.949 -426.857)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="138" height="54" viewBox="0 0 138 54">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-size: 18px;
+        font-family: NotoSansCJKkr-Medium, Noto Sans CJK KR;
+        font-weight: 500;
+        letter-spacing: -0.02em;
+      }
+    </style>
+  </defs>
+  <text id="올해_국가무료검진_대상자이신가요_" data-name="올해 국가무료검진 
+대상자이신가요?" class="cls-1" transform="translate(0 21)"><tspan x="0" y="0">올해 국가무료검진 </tspan><tspan x="0" y="27">대상자이신가요?</tspan></text>
+</svg>

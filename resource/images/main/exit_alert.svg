@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="188" viewBox="0 0 360 188">
+  <g id="그룹_1312" data-name="그룹 1312" transform="translate(-6434 -944)">
+    <rect id="사각형_740" data-name="사각형 740" width="360" height="188" rx="16" transform="translate(6434 944)" fill="#fff"/>
+    <g id="그룹_1253" data-name="그룹 1253" transform="translate(8293 1431)">
+      <circle id="타원_133" data-name="타원 133" cx="24" cy="24" r="24" transform="translate(-1703 -459)" fill="#00a7af"/>
+      <text id="_" data-name="!" transform="translate(-1683 -425)" fill="#fff" font-size="22" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500" letter-spacing="-0.025em"><tspan x="0" y="0">!</tspan></text>
+    </g>
+    <text id="간편문진_수정을_취소하시겠습니까_" data-name="간편문진 수정을 취소하시겠습니까?" transform="translate(6614 1051)" fill="#111" font-size="16" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" letter-spacing="-0.02em"><tspan x="-115.056" y="0">간편문진 수정을 취소하시겠습니까?</tspan></text>
+  </g>
+</svg>

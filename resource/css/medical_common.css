@@ -1,0 +1,168 @@
+/*buttons*/
+.btna { display:inline-block; padding: 4px 12px;  margin-bottom: 0; font-size: 12px;  font-weight: bold;  line-height: 1.42857143;  text-align: center;  white-space: nowrap; vertical-align: middle; -ms-touch-action: manipulation;  touch-action: manipulation;  cursor: pointer;  -webkit-user-select: none;  -moz-user-select: none;  -ms-user-select: none;  user-select: none;  background-image: none;  border: 1px solid transparent;  border-radius: 4px;}
+.btna, .btn-group { margin-top: 5px;  margin-bottom: 5px;}
+
+.btn-default{color: #333; background-color: #fff;  border-color: #ccc;}
+.btn-default:hover { color: #333;  background-color: #e6e6e6; border-color: #adadad;}
+.btn.focus, .btn:focus {  color: #333;  text-decoration: none; }
+
+
+.btn-primary { color: #fff;  background-color: #337ab7;  border-color: #2e6da4;}
+.btn-primary:hover, .btn-primary:focus {color: #fff; background-color: #286090;  border-color: #204d74;}
+
+.btn-success{ color: #fff;  background-color: #5cb85c; border-color: #4cae4c; }
+.btn-success:hover, .btn-success:focus{color: #fff;  background-color: #449d44;  border-color: #398439;}
+
+.btn-info{color: #fff;  background-color: #5bc0de; border-color: #46b8da;}
+.btn-info:hover, .btn-info:focus{color: #fff; background-color: #31b0d5; border-color: #269abc}
+
+.btn-warning{  color: #fff; background-color: #f0ad4e; border-color: #eea236;}
+.btn-warning:hover, .btn-warning:focus{color: #fff; background-color: #ec971f; border-color: #d58512;}
+
+.btn-danger{color: #fff;  background-color: #d9534f; border-color: #d43f3a;}
+.btn-danger:hover, .btn-danger:focus{color: #fff; background-color: #c9302c; border-color: #ac2925;}
+
+.btn-gray{color: #fff;  background-color: #a2aeb9; border-color: #858585; }
+.btn-gray:hover, .btn-gray:focus{color: #fff; background-color: #727ea9; border-color: #858585;}
+
+
+
+/*btn-area*/
+.btn-area-right{margin:10px 20px 10px 0; text-align:right;}
+.btn-area-left{margin:10px 0 10px 20px; text-align:left;}
+.btn-area-center{margin:10px 0 10px 0; text-align:center;}
+
+
+/*color*/
+.tprimary{color:#337ab7;}
+.tprimary-all *{color:#337ab7;}
+.tsuccess{color:#5cb85c;}
+.tsuccess-all *{color:#5cb85c;}
+.tinfo{color:#5bc0de}
+.tinfo-all *{color:#5bc0de}
+.twarning{color:#f0ad4e}
+.twarning-all *{color:#f0ad4e}
+.tdanger{color:#d9534f}
+.tdanger-all *{color:#d9534f}
+.tbold{font-weight:bold;}
+
+
+/*text align*/
+.tcenter{text-align:center;}
+.tcenter-all * {text-align:center;}
+.tright{text-align:right;}
+.tright-all * {text-align:right;}
+.tleft{text-align:left;}
+.tleft-all * {text-align:left;}
+
+/*alert */
+.alert{padding: 15px;   margin-bottom: 20px;   border: 1px solid transparent;  border-radius: 4px;}
+.alert-info{ color: #3c763d;  background-color: #dff0d8;  border-color: #d6e9c6; }
+.alert-success {color: #31708f;   background-color: #d9edf7;  border-color: #bce8f1;}
+.alert-warning{ color: #8a6d3b;   background-color: #fcf8e3; border-color: #faebcc;}
+.alert-danger{ color: #a94442;  background-color: #f2dede;  border-color: #ebccd1;}
+
+/*length*/
+.full{width:97% !important;  margin:0 auto;}
+.middle{width:50% !important; }
+.mini{width:100px !important;}
+input.normal{width:100px !important; }
+input.mini{width:50px !important; }
+input.tiny{width:50px !important; }
+input.alittle{width:40px !important; }
+select.dklist{width:95%; height:100px; margin:0 auto;}
+
+
+/*vertical align*/
+.valign-m{vertical-align:middle;}
+.valign-m-all, .valign-m-all *{vertical-align:middle;}
+
+tbody.valign-m-all tr td{vertical-align:middle;}
+
+/* page 우 하단 box*/
+.box{padding:10px; width:100%;}
+.box-r{float:right;}
+.box-small{width:300px;}
+.box-middle{width:50%;}
+.box input[type="text"]{width:50%;}
+
+/*etc*/
+.hide{display:none;}
+.clear:after {content:""; height:0; display:block; clear:both;}
+
+.notice-area{text-align:center; margin:15px; border:1px solid #fff; padding:8px 0; background:#fff; line-height:24px;}
+.strong{font-weight:bold;}
+
+#formReceiver{display:none; width:100%; height:400px;}
+
+
+/*메인 페이지*/
+#main-search{}
+#main-search .row{margin:0 auto; border:1px solid #e3e3e3; padding:5%; background-color:#fff;}
+#main-search .form-control{width:95%; border: 1px solid #ccc;}
+
+
+/*검진기관 찾기*/
+#main-left-list{clear:both;}
+	
+		#main-left-list li{width:100%;}
+		#main-left-list li *{vertical-align:middle;}
+
+			#main-left-list .item{display:table; height:auto;}
+			#main-left-list a.image{display:table-cell; width:45%;}
+			#main-left-list a.image img{width:100%;}
+			#main-left-list .wrapper{display:table-cell; width:99%; float:right;}
+
+	#main-left-list .inner{height:auto;}
+	#main-left-list .item-specific{display:none;}
+
+
+
+
+/*infobox*/
+.infobox{}
+.infobox .item-specific{display:none;}
+.infobox .overlay{display:none;}
+
+/*	#main-left-list li{width:452px; height:150px; margin-top:10px;}
+	#main-left-list li .item{height:150px;}
+	#main-left-list li .item .item-specific{display:none;} 
+	#main-left-list li .item > a.image{display:block; float:left; width:200px; height:150px;}
+	#main-left-list li .item > .wrapper{display:block; float:left; width:240px; margin-left:5px; height:150px;}
+
+
+	#pagination{clear:both; height:55px;}
+	*/
+
+
+
+
+/*
+* OK건강정보
+*/
+#borde-health{}
+#borde-health .at-icon-box-text{position:relative; display: inline-block; color: #666666;}
+#borde-health a.link{position:absolute; top:0; left:0; z-index:99;}
+
+
+/*회원가입*/
+#user-join-form{}
+#user-join-form .join-form-area{padding-top:40px; padding-bottom:40px;}
+#user-join-form .join-form-area hr{padding:20px 0;}
+#user-join-form .join-form-area .form-group{margin:20px 0;}
+
+
+.suga{font-size:16px !important; font-weight:bold;}
+.not-price{font-size:13px; text-decoration:line-through; color:#131313;}
+
+
+#page-content {max-width:720px;}
+
+#container {
+    margin: 0 auto;
+    max-width: 720px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.15);
+    box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.15);
+    width: 100%;
+}

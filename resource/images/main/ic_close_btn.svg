@@ -1,0 +1,21 @@
+<svg id="ic_close_btn" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <rect id="bg" class="cls-1" width="24" height="24"/>
+  <g id="그룹_898" data-name="그룹 898" transform="translate(-284 -55)">
+    <path id="패스_12" data-name="패스 12" class="cls-2" d="M12,19,5,12l7-7" transform="translate(291 55)"/>
+    <path id="패스_426" data-name="패스 426" class="cls-2" d="M5,19l7-7L5,5" transform="translate(284 55)"/>
+  </g>
+</svg>

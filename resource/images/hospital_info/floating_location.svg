@@ -1,0 +1,54 @@
+<svg id="floating_location" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        stroke: #dbdbdb;
+      }
+
+      .cls-2 {
+        fill: rgba(52,151,253,0);
+      }
+
+      .cls-3, .cls-4 {
+        stroke: #111;
+      }
+
+      .cls-4, .cls-6 {
+        fill: none;
+      }
+
+      .cls-4 {
+        stroke-linecap: round;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="타원_40" data-name="타원 40" class="cls-1">
+    <circle class="cls-5" cx="20" cy="20" r="20"/>
+    <circle class="cls-6" cx="20" cy="20" r="19.5"/>
+  </g>
+  <g id="그룹_787" data-name="그룹 787" transform="translate(8 8)">
+    <rect id="bg" class="cls-2" width="24" height="24"/>
+    <g id="그룹_431" data-name="그룹 431" transform="translate(3 3)">
+      <g id="타원_38" data-name="타원 38" class="cls-3">
+        <circle class="cls-5" cx="9" cy="9" r="9"/>
+        <circle class="cls-6" cx="9" cy="9" r="8.5"/>
+      </g>
+      <line id="선_463" data-name="선 463" class="cls-4" y2="3.429" transform="translate(9.375 0.5)"/>
+      <line id="선_464" data-name="선 464" class="cls-4" x1="0.018" y2="3.335" transform="translate(9.357 14.071)"/>
+      <line id="선_465" data-name="선 465" class="cls-4" x1="3.429" transform="translate(0.5 9.375)"/>
+      <line id="선_466" data-name="선 466" class="cls-4" x1="3.335" y2="0.018" transform="translate(14.071 9.357)"/>
+      <g id="타원_39" data-name="타원 39" class="cls-3" transform="translate(9.019 9.019)">
+        <circle class="cls-5" cx="0.357" cy="0.357" r="0.357"/>
+        <circle class="cls-6" cx="0.357" cy="0.357" r="0.143"/>
+      </g>
+    </g>
+  </g>
+</svg>
