@@ -87,7 +87,7 @@ label {opacity:0.7}
 
 
 #c_alert { display:none; position: absolute; max-width: 720px; width:100%; z-index: 1000; top:20%; height:240px; background-image:url('/resource/images/main/close_alert2.svg');background-position:center;background-repeat:no-repeat;}
-#c_alert2 { display:none; position: absolute; max-width: 720px; width:100%; z-index: 1000; top:20%; height:240px; background-image:url('/resource/images/main/close_alert3.svg');border-bottom-left-radius: 14px;border-bottom-right-radius: 14px;}
+#c_alert2 { display:none; position: absolute; max-width: 720px; width:100%; z-index: 1000; top:20%; height:240px; background-image:url('/resource/images/main/close_alert3.svg');background-position:center;background-repeat:no-repeat;border-bottom-left-radius: 14px;border-bottom-right-radius: 14px;}
 #alert_back { display:none; position: absolute; max-width: 720px; width:100%; z-index: 999; height:100%; }
 .q_close { position: absolute; margin: 16px; max-width: 48vw; }
 .q_title { position: absolute; top: 27%; left: 13%; min-width: 212px;}
@@ -134,12 +134,12 @@ label {opacity:0.7}
 <img id="alert_back" src="/resource/images/main/nemo.svg">
 
 <div id="c_alert">
-<img src="/resource/images/main/splash_esc.svg" onclick="close_esc()" class="c_btn" style="border-bottom-left-radius: 14px;">
+<img src="/resource/images/main/splash_esc.svg" onclick="close_esc()" class="c_btn" style="border-bottom-left-radius: 14px;margin-left: 26px;">
 <img src="/resource/images/main/splash_exit.svg" onclick="close_exit()" class="c_btn" style="border-bottom-right-radius: 14px;">
 </div>
 
 <div id="c_alert2">
-<img src="/resource/images/main/splash_esc.svg" onclick="close_esc2()" class="c_btn" style="border-bottom-left-radius: 14px;">
+<img src="/resource/images/main/splash_esc.svg" onclick="close_esc2()" class="c_btn" style="border-bottom-left-radius: 14px;margin-left: 26px;">
 <img src="/resource/images/main/splash_exit.svg" onclick="close_exit2()" class="c_btn" style="border-bottom-right-radius: 14px;">
 </div>
 <!-- 메인 이미지 -->
