@@ -90,7 +90,9 @@ label {opacity:0.7}
 #c_alert2 { display:none; position: absolute; max-width: 720px; width:100%; z-index: 1000; top:20%; height:240px; background-image:url('/resource/images/main/close_alert3.svg');background-position:center;background-repeat:no-repeat;border-bottom-left-radius: 14px;border-bottom-right-radius: 14px;}
 #alert_back { display:none; position: absolute; max-width: 720px; width:100%; z-index: 999; height:100%; }
 .q_close { position: absolute; margin: 16px; max-width: 48vw; }
-.q_title { position: absolute; top: 27%; left: 13%; min-width: 212px;}
+.q_title { position: absolute; top: 27%; left: 13%; min-width: 240px;font-size: 18px;
+        font-family: NotoSansCJKkr-Medium, Noto Sans CJK KR;color:#fff;}
+.q_title p {margin:0;}
 .q_sub_title { position: absolute; left: 13%; color:white;}
 .btn_next { position: absolute; left: 10%; top: 60%; max-width: 104px; display: none;}
 .btn_main { position: absolute; left:10%; top: 45%; min-width: 160px;}
@@ -152,7 +154,11 @@ label {opacity:0.7}
 <div id="myModal" class="modal2">
 
 <img src="/resource/images/main/ic_close_btn.svg" class="q_close" width="24" onclick="close_c()" >
-<img src="/resource/images/main/q_00_title.svg" class="q_title" width="100%" style="max-width:212px;">
+<div class="q_title" width="100%" style="max-width:212px;">
+        <p>안녕하세요 :)</p>
+        <p>나라검진을 통해</p>
+        <p>국가무료검진 예약을 하셨나요?</p>
+</div>
 
 <!-- <img src="/resource/images/main/q_00_yes.svg" style="top:43%;max-width:84px;" class="q_sub_title" width="100%">
 <img src="/resource/images/main/q_00_no.svg" style="top:48%;max-width:42px;"  onclick="next();" class="q_sub_title" width="100%"> -->
