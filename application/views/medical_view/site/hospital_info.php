@@ -338,8 +338,15 @@
         color:#707070;
 }
 
-.hos_info_middle {
-        
+.hos_info_1 {
+        padding : 17px 16px 31px 16px;
+        border-bottom: 1px solid #F1F1F1;
+}
+
+.font_16 {
+        font-size: 16px;
+        font-family: NotoSansCJKkr-Regular, Noto Sans CJK KR;
+        letter-spacing: -0.02em;
 }
 
 </style>
@@ -377,10 +384,18 @@
 
                 </div>
 
-                <div class="host_info_middle row" style="padding: 5px 44px 5px 44px; border-bottom: 1px solid #F1F1F1;">
+                <div class="hos_info_middle row" style="padding: 5px 44px 5px 44px; border-bottom: 1px solid #F1F1F1;">
                         <img src="/resource/images/hospital_info/link_navigation.svg" style="display:inline;" class="col-4">
                         <img src="/resource/images/hospital_info/link_taxi.svg" style="display:inline;" class="col-4">
                         <img src="/resource/images/hospital_info/link_map.svg" style="display:inline;" class="col-4">
+                </div>
+
+                <div class="hos_info_1">
+                        <p class="font_16" style="margin-bottom:16px;">기본정보</p>
+                        <p class="font_16" style="color:#707070; font-size:12px;">설립구분<span class="font_16" style="font-size:14px;margin-left:28px;">사단법인</span></p>
+                        <p class="font_16" style="color:#707070; font-size:12px;">전문의<span class="font_16" style="font-size:14px;margin-left:38px;">15명</span></p>
+                        <p class="font_16" style="color:#707070; font-size:12px;">진료과목<span class="font_16" style="font-size:14px;margin-left:28px;width:227px">가정의학과, 내과, 안과, 영상의학과, 
+일반의, 직업환경의학과, 진단검사의학과</span></p>
                 </div>
 
                 

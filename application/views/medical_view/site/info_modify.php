@@ -71,7 +71,7 @@ transform: translate( -50%, -50% );
 label {opacity:0.7}
 
 
-#c_alert { display:none; position: absolute; max-width: 720px; width:100%; z-index: 1000; margin-top:108px; height:186px; background-image:url('/resource/images/main/exit_alert.svg');background-position: center; background-reqeat:no-repeat;}
+#c_alert { display:none; position: absolute; max-width: 360px; width:100%; z-index: 1000; margin-top:108px; height:186px; background-image:url('/resource/images/main/exit_alert.svg');background-position: center; background-repeat:no-repeat;transform:translate(50%, 50%)}
 .q_close { position: absolute; margin: 16px; max-width: 48vw; }
 .q_title { position: absolute; top: 27%; left: 13%; min-width: 212px;}
 .q_sub_title { position: absolute; left: 13%; color:white;}
