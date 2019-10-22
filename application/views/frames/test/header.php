@@ -25,8 +25,8 @@
 
 	  gtag('config', 'UA-108011009-1');
 	</script>
-
-
+		
+		<link rel="stylesheet" href="/resource/assets/fonts/font-noto.css"  type="text/css">  
 	<link rel="apple-touch-icon-precomposed" href="../okaymedi.com/favicon-152.png" />
 	<link rel="stylesheet" href="<?=$_site_config['url']['css']?>/font-awesome.min.css" />
 	<link rel="stylesheet" href="<?=$_site_config['url']['css']?>/materialize.min.css" />

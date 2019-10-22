@@ -38,7 +38,7 @@
 	<link rel="stylesheet" href="/resource/assets/css/style.css" type="text/css">
 	<link rel="stylesheet" href="/resource/assets/css/user.style.css" type="text/css">
 	<link rel="stylesheet" href="/resource/assets/css/lightslider.css"/>
-
+	<link rel="stylesheet" href="/resource/assets/fonts/font-noto.css"  type="text/css">  
 	
 
 	<script type="text/javascript" src="/resource/assets/js/jquery-2.1.0.min.js"></script>

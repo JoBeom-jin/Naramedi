@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="/resource/assets/css/jquery.mCustomScrollbar.css" type="text/css">
     <link rel="stylesheet" href="/resource/assets/css/style.css" type="text/css">
     <link rel="stylesheet" href="/resource/assets/css/user.style.css" type="text/css">
+    <link rel="stylesheet" href="/resource/assets/fonts/font-noto.css"  type="text/css">  
     <title>
 		<?=$shop_name?> 
 		<?if($html_title):?>

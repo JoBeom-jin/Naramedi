@@ -8,6 +8,7 @@
         <meta content="Preview page of Metronic Admin Theme #1 for " name="description" />
         <meta content="" name="author" /> 
 		<link type="text/css"  rel="stylesheet" href="/resource/css/common.css" />
+		<link rel="stylesheet" href="/resource/assets/fonts/font-noto.css"  type="text/css">  
 		<?=$css?>
 		<?=$js?>
 	</head>

@@ -307,9 +307,7 @@
 }
 
 
-input:focus {
-        color:#00A7AF;
-}
+input:focus {}
 
 
 
@@ -376,7 +374,7 @@ input:focus {
                         <p class="info_sub_title" style="position:absolute;left:72px; top:12px;">직접검색</p>
                 </div>
 
-                <input type="text" onkeyup="clear_text()" placeholder="병원명을 입력해 주세요." class="hospital_searchbar" id="hospital_searchbar" />
+                <input type="text" onkeyup="clear_text()" placeholder="병원명을 입력해 주세요." class="hospital_searchbar" id="hospital_searchbar" style="caret-color:#00A7AF;" />
                 <img onclick="document.getElementById('hospital_searchbar').value= '';" src="/resource/images/hospital/ic_clear.svg" id="clear_btn" style="position:absolute;right:30px;top:76px;display:none">
 
 

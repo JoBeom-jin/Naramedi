@@ -104,7 +104,7 @@
         margin: 0 auto;
         top:0;
 	max-width: 720px;
-	height: 100%;
+	height: ;
         width:100%;
         z-index:99;
         background:white;
@@ -364,10 +364,7 @@
                 </div>
 
                 
-                <div style="max-width:720px;width:100%;position:fixed;bottom:0;">
-                <img src="/resource/images/hospital_info/btn_call.svg" style="float:left;">
-                <img src="/resource/images/hospital_info/btn_counsel.svg" style="float:left;">
-                </div>
+                
 
 
                 <img src="/resource/images/hospital_info/info_default.svg" id="btn_img" style="max-width:720px;width:100%;">
@@ -380,14 +377,20 @@
 
                 </div>
 
-                <div class="host_info_middle row" style="padding: 5px 44px 5px 44px; height:74px; border-bottom: 1px solid #F1F1F1;">
+                <div class="host_info_middle row" style="padding: 5px 44px 5px 44px; border-bottom: 1px solid #F1F1F1;">
                         <img src="/resource/images/hospital_info/link_navigation.svg" style="display:inline;" class="col-4">
                         <img src="/resource/images/hospital_info/link_taxi.svg" style="display:inline;" class="col-4">
                         <img src="/resource/images/hospital_info/link_map.svg" style="display:inline;" class="col-4">
                 </div>
 
+                
+
 
                 
+                <div style="max-width:720px;width:100%;position:fixed;bottom:0;">
+                <img src="/resource/images/hospital_info/btn_call.svg" style="float:left;">
+                <img src="/resource/images/hospital_info/btn_counsel.svg" style="float:left;">
+                </div>
 
 
         </div>
