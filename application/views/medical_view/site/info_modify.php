@@ -326,6 +326,10 @@ var modal7 = document.getElementById("myModal7");
 
 var text;
 
+my_name.innerHTML = n;
+my_name2.innerHTML = n;
+my_name3.innerHTML = n;
+
 // var label = $("input:radio[name=view]:checked").prop("labels");
 var code = sessionStorage.getItem("code");
 

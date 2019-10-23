@@ -532,8 +532,28 @@ input:focus {}
 
 
 <script>
+var open = sessionStorage.getItem("op_code");
 
 var modalbox = document.getElementById("my_modal");
+
+if (open == 1) {
+        var search_box = document.getElementById("hospital_search_box");
+        search_box.style.display = "block";
+        modalbox.style.display = "none";       
+}
+else if (open == 2) {
+        var search_box = document.getElementById("hospital_search_box");
+        search_box.style.display = "block";
+        modalbox.style.display = "none";       
+}
+
+else if(open == 3) {
+        var search_box = document.getElementById("hospital_search_box");
+        search_box.style.display = "none";
+        modalbox.style.display = "block";       
+}
+
+
 
 function btn_c() {
   var search_box = document.getElementById("search_box");
@@ -565,6 +585,7 @@ function close_search() {
   
   hospital_search.style.display = "none";
   my_modal.style.display = "block";
+  history.back();
         
 }
 

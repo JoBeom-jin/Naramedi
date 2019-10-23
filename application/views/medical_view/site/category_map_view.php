@@ -342,6 +342,8 @@
                         
                         <p class="info_sub_title" style="position:absolute;left:72px; top:12px;width:198px;text-overflow: ellipsis;white-space: nowrap;overflow:hidden;" onclick="open_tab()">일반검진/서울특별시 서초구 잠원동</p>
 
+                        <img src="/resource/images/hospital/ic_search_gray.svg" style="float:right;margin-top:12px; margin-right:16px;" onclick="open_search()">
+
                 </div>
 
                 <div style="float:right;margin-right:16px;">
@@ -447,6 +449,16 @@ function open_tab() {
 }
 
 
+function close_tab() {
+  var hospital_search = document.getElementById("hospital_search_box");
+  
+  
+  hospital_search.style.display = "none";
+  my_modal.style.display = "block";
+        
+}
+
+
 function close_search() {
   var hospital_search = document.getElementById("hospital_search_box");
   
@@ -468,6 +480,11 @@ else{
         document.getElementById("hospital_searchbar").style.backgroundImage = "url('/resource/images/hospital/typing_text.svg')";
         clear_btn.style.display="block";
 }
+}
+
+function open_search() {
+sessionStorage.setItem("op_code", 1);
+location.href='/index.php/Hospital';
 }
 
 

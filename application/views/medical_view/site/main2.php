@@ -383,7 +383,7 @@
                 <img src = "/resource/images/app_main/home_btn.svg"  class="col-4">
 
 
-                <img onclick="location.href='/index.php/Hospital';" src ="/resource/images/app_main/hospital_btn.svg" class="col-4">
+                <img onclick="search()" src ="/resource/images/app_main/hospital_btn.svg" class="col-4">
         
                 <img src = "/resource/images/app_main/info_btn2.svg" class="col-4" onclick="info_open()">
         </div>
@@ -427,7 +427,7 @@
        
 
         <div style="text-align:center;max-width:720px;margin-top:37px">
-        <a href="/index.php/Hospital"><img src = "/resource/images/app_main/btn_search.svg"></a>
+        <img onclick="search()" src = "/resource/images/app_main/btn_search.svg">
         </div>
 
 
@@ -914,6 +914,11 @@ sessionStorage.setItem("code", 4);
 function modify5() {
 location.href='/index.php/Infomodify';
 sessionStorage.setItem("code", 5);
+}
+
+function search() {
+location.href='/index.php/Hospital_search';     
+sessionStorage.setItem("op_code", 3);   
 }
 
 

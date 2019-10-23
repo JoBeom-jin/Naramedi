@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Hospital extends MY_Controller {
+class Hospital_search extends MY_Controller {
 
    
 
