@@ -323,7 +323,7 @@ var modal5 = document.getElementById("myModal5");
 var modal6 = document.getElementById("myModal6");
 var modal7 = document.getElementById("myModal7");
 
-
+var tt;
 var text;
 
 my_name.innerHTML = n;
