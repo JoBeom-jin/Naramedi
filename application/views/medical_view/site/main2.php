@@ -276,6 +276,10 @@
         margin-top:5px;
 }
 
+.btn_more {
+        margin-top:24px;
+        text-align:center;
+}
 
 </style>
 	  
@@ -450,6 +454,10 @@
                         
                         
                                       
+                </div>
+
+                <div class="btn_more">
+                <img src="/resource/images/app_main/btn_more.svg" />
                 </div>
 
         </div>

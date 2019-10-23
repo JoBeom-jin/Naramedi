@@ -1,0 +1,29 @@
+<svg id="btn_more" xmlns="http://www.w3.org/2000/svg" width="328" height="48" viewBox="0 0 328 48">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #f1f1f1;
+      }
+
+      .cls-2 {
+        fill: #00a7af;
+        font-size: 14px;
+        font-family: NotoSansCJKkr-Regular, Noto Sans CJK KR;
+        letter-spacing: -0.02em;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="header" class="cls-1">
+    <rect class="cls-3" width="328" height="48"/>
+    <rect class="cls-4" x="0.5" y="0.5" width="327" height="47"/>
+  </g>
+  <text id="더보기" class="cls-2" transform="translate(145 30)"><tspan x="0" y="0">더보기</tspan></text>
+</svg>

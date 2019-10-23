@@ -1,3 +1,0 @@
-<?
-require_once $_SERVER['DOCUMENT_ROOT'].DIRECTORY_SEPARATOR.'application'.DIRECTORY_SEPARATOR.'views'.DIRECTORY_SEPARATOR.'medical_view'.DIRECTORY_SEPARATOR.'user_event'.DIRECTORY_SEPARATOR.'common'.DIRECTORY_SEPARATOR.'item_list.js.php';
-?>

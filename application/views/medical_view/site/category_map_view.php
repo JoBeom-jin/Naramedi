@@ -314,6 +314,10 @@
         float:left;
         padding:14px 0px 14px 0px;
 
+        color:#707070;
+        font-size: 14px;
+        font-family: NotoSansCJKkr-Regular, Noto Sans CJK KR;
+        letter-spacing: -0.02em;
 }
 
 .tab_group {
