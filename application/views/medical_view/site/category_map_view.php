@@ -327,12 +327,13 @@
 .btn_wrap {
         min-width:109px;
         min-height:92px;
-        width:33%;
         float:left;
+        width:33%;
         border: 1px solid #F1F1F1;
 }
 
-.btn_wrap img {margin-top: 20px;}
+.btn_wrap img {margin-top: 20px;
+                margin:20px 10px 10px 10px;}
 
 
 .font_noto {
