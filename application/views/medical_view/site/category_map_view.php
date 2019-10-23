@@ -507,7 +507,7 @@
                 </div>
 
 
-                
+                <img src="/resource/images/category_map/btn_03.svg">
 
 
         </div>
