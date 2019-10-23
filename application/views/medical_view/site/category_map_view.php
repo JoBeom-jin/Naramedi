@@ -268,10 +268,8 @@
 
 .btn_group {
         text-align: center;
-        max-width:360px;
-        width:49%;
-        height:32px;
-        float:left;
+        max-width:720px;
+        width:100%;
         margin-top:5px;
 }
 
@@ -302,8 +300,7 @@
         font-size: 12px;
         font-family: NotoSansCJKkr-Regular, Noto Sans CJK KR;
         letter-spacing: -0.02em;
-        margin-left:16px;
-        margin-top:20px;
+        margin: 20px 16px 0px 16px;
 }
 
 .tab_view {
@@ -325,6 +322,26 @@
         width:100%;
         height:48px;
         border-bottom: 1px solid #F1F1F1;
+}
+
+.btn_wrap {
+        min-width:109px;
+        min-height:92px;
+        width:33%;
+        float:left;
+        border: 1px solid #F1F1F1;
+}
+
+.btn_wrap img {margin-top: 20px;}
+
+
+.font_noto {
+        font-size: 14px;
+        font-family: NotoSansCJKkr-Regular, Noto Sans CJK KR;
+        letter-spacing: -0.02em;
+        color:#707070;
+        margin-top:15px;
+        margin-bottom:11px;
 }
 
 
@@ -393,11 +410,99 @@
                         <img onclick="close_tab()" src="/resource/images/app_main/ic_arrow.svg" style="position:absolute;left:16px;top:12px;">
                         
                         <p class="info_sub_title" style="position:absolute;left:72px; top:12px;">일반검진</p>
+
+                        <img src="/resource/images/hospital/ic_search_gray.svg" style="float:right;margin-top:12px; margin-right:16px;" onclick="open_search()">
                 </div>
 
                 <div class="tab_group">
-                <div class="tab_view" id="tab_view1" style="border-bottom:1px solid #00A7AF;">검진선택</div>
-                <div class="tab_view" id="tab_view2">위치선택</div>
+                <div class="tab_view" id="tab_view1" onclick="tab_click1()" style="border-bottom:1px solid #00A7AF;">검진선택</div>
+                <div class="tab_view" id="tab_view2" onclick="tab_click2()">위치선택</div>
+                </div>
+
+                <div class="btn_group" id="btn_group1" style="padding: 20px 16px 0px 16px;">
+                                <div class="btn_wrap">
+                                <img src="/resource/images/category_map/all_btn.svg">
+                                </div>
+
+                                <div class="btn_wrap">
+                                <img src="/resource/images/category_map/btn_01.svg">
+                                </div>
+
+                                <div class="btn_wrap">
+                                <img src="/resource/images/category_map/btn_02.svg">
+                                </div>
+
+
+                                <div class="btn_wrap">
+                                <img src="/resource/images/category_map/btn_03.svg">
+                                </div>
+
+                                <div class="btn_wrap">
+                                <img src="/resource/images/category_map/btn_04.svg">
+                                </div>
+
+                                <div class="btn_wrap">
+                                <img src="/resource/images/category_map/btn_05.svg">
+                                </div>
+                                
+
+
+                                <div class="btn_wrap">
+                                <img src="/resource/images/category_map/btn_06.svg">
+                                </div>
+
+                                <div class="btn_wrap">
+                                <img src="/resource/images/category_map/btn_07.svg">
+                                </div>
+
+                                <div class="btn_wrap">
+                                <img src="/resource/images/category_map/btn_08.svg">
+                                </div>
+
+
+
+                                <div class="btn_wrap">
+                                <img src="/resource/images/category_map/btn_09.svg">
+                                </div>
+
+                                <div class="btn_wrap">
+                                <img src="/resource/images/category_map/btn_10.svg">
+                                </div>
+
+                                <div class="btn_wrap">
+                                <img src="/resource/images/category_map/btn_11.svg">
+                                </div>
+
+
+
+                                <div class="btn_wrap">
+                                <img src="/resource/images/category_map/btn_12.svg">
+                                </div>
+
+                                <div class="btn_wrap" style="background: #F1F1F1;">
+                                <img src="/resource/images/category_map/logo_symbol.svg">
+                                </div>
+
+                                <div class="btn_wrap" style="background: #F1F1F1;">
+                                <img src="/resource/images/category_map/logo_symbol.svg">
+                                </div>
+                                
+                </div>
+
+
+
+
+                <div class="btn_group" id="btn_group2" style="text-align: left;display:none;">
+
+                <input type="text" onkeyup="clear_text()" placeholder="지역, 주소, 지하철역으로 검색해 주세요." class="hospital_searchbar" id="hospital_searchbar" style="caret-color:#00A7AF;" />
+                <img onclick="document.getElementById('hospital_searchbar').value= '';" src="/resource/images/hospital/ic_clear.svg" id="clear_btn" style="position:absolute;right:30px;top:76px;display:none">
+
+                <div class="font_noto" style="margin-left:48px;">내 위치에서 찾기</div>
+                                
+                <div style="max-width:720px; background-color:#F1F1F1;height:430px;padding-left:19px;padding-top:19px;">
+                <p class="font_noto" style="margin:0;">내 주변 가까운 지하철역</p>        
+                </div>
+
                 </div>
 
 
@@ -414,13 +519,27 @@
 <script>
 
 var modalbox = document.getElementById("my_modal");
+var btn_group1 = document.getElementById("btn_group1");
+var btn_group2 = document.getElementById("btn_group2");
 
-
-
-function tab_click() {
 var tab1 = document.getElementById("tab_view1");
 var tab2 = document.getElementById("tab_view2");
 
+
+function tab_click1() {
+        tab2.style.borderBottom = "none";
+        tab1.style.borderBottom  = "1px solid #00A7AF";
+        btn_group1.style.display = "block";
+        btn_group2.style.display = "none";
+
+}
+
+
+function tab_click2() {
+        tab1.style.borderBottom = "none";
+        tab2.style.borderBottom  = "1px solid #00A7AF";
+        btn_group1.style.display = "none";
+        btn_group2.style.display = "block";
 
 }
 
@@ -484,7 +603,7 @@ else{
 
 function open_search() {
 sessionStorage.setItem("op_code", 1);
-location.href='/index.php/Hospital';
+location.href='/index.php/Hospital_search';
 }
 
 

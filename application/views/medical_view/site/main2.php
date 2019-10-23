@@ -389,7 +389,7 @@
         </div>
 
         <div style="text-align:center;padding:0;">
-                <div class="main_menu" style="margin:19px 26px 0px 40px; padding:0;">
+                <div onclick="location.href='/index.php/Mapview';" class="main_menu" style="margin:19px 26px 0px 40px; padding:0;">
                         <img src = "/resource/images/app_main/ic_btn01.svg">
                         <p class="btn_text">일반검진</p>
                 </div>
