@@ -10,9 +10,9 @@ class Mainset extends MY_Controller {
 		
 
     // return 'medical_view/site/main2';
-    $this->load->view('frames/main/header');
+    $this->load->view('frames/main2/header');
     $this->load->view('medical_view/site/main2');
-    $this->load->view('frames/main/footer');
+    $this->load->view('frames/main2/footer');
     
 }
 }

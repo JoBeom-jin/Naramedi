@@ -10,9 +10,9 @@ class Infomodify extends MY_Controller {
 		
 
     // return 'medical_view/site/main2';
-    $this->load->view('frames/main/header');
+    $this->load->view('frames/info_modify/header');
     $this->load->view('medical_view/site/info_modify');
-    $this->load->view('frames/main/footer');
+    $this->load->view('frames/info_modify/footer');
     
 }
 }

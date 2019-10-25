@@ -75,6 +75,8 @@ class Medical extends MY_Controller {
 
 		$this->addJS('/resource/assets/js/owl.carousel.min.js');
 		$this->addJS('/resource/assets/js/lightslider.js');
+		$this->addJS('/resource/js/main.js');
+
 
 		parent::viewPage('medical_view/'.$tpl, $this->_data);
 

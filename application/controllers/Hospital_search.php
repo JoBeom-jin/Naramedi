@@ -10,9 +10,9 @@ class Hospital_search extends MY_Controller {
 		
 
     // return 'medical_view/site/main2';
-    $this->load->view('frames/main/header');
+    $this->load->view('frames/hospital_search/header');
     $this->load->view('medical_view/site/hospital_search');
-    $this->load->view('frames/main/footer');
+    $this->load->view('frames/hospital_search/footer');
     
 }
 }
