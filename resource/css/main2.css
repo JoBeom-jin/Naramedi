@@ -14,6 +14,9 @@ position: relative;
 
 }
 
+
+
+
 .main_title {
 color: #111;
 font-size: 18px;
@@ -120,8 +123,8 @@ display:none;
 
 .profile_title {
     position:absolute;
-    top:48px;
-    left:75px;
+    top:35px;
+    left:72px;
     color: #fff;
     font-size: 14px;
     font-family: NotoSansCJKkr-Medium, Noto Sans CJK KR;
@@ -233,8 +236,8 @@ display:none;
 
 .info_gps {
     position:absolute;
-    left:71px;
-    top:68px;
+    left:72px;
+    top: 72px;
     color: #fff;
     font-size: 10px;
     font-family: NotoSansCJKkr-Regular, Noto Sans CJK KR;
@@ -279,3 +282,4 @@ height: 34px;
     margin-top:24px;
     text-align:center;
 }
+

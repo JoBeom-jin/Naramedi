@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="134" height="70" viewBox="0 0 134 70">
+  <defs>
+    <filter id="사각형_624" x="0" y="0" width="134" height="70" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="구성_요소_1" data-name="구성 요소 1" transform="translate(15 10)">
+    <g transform="matrix(1, 0, 0, 1, -15, -10)" filter="url(#사각형_624)">
+      <rect id="사각형_624-2" data-name="사각형 624" width="104" height="40" rx="20" transform="translate(15 10)" fill="#00a7af"/>
+    </g>
+    <text id="이전" transform="translate(54 27)" fill="#fff" font-size="16" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0">이전</tspan></text>
+    <g id="icons_dark_back" data-name="icons/dark/back" transform="translate(16 8)">
+      <rect id="bg" width="24" height="24" fill="none"/>
+      <g id="arrow-left" transform="translate(5 5)">
+        <line id="선_36" data-name="선 36" x1="14" transform="translate(0 7)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="패스_12" data-name="패스 12" d="M7,0,0,7l7,7" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

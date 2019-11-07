@@ -180,13 +180,6 @@ var tab2 = document.getElementById("tab_view2");
 
 
 
-
-
-
-        
-
-
-
 </script>
 
 

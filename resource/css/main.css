@@ -1,113 +1,301 @@
-
-
-radio input[type="radio"]{
+radio input[type="radio"] {
 	display:none;
 }
-
-/* radio input[type="radio"] + label{
-	border:2px solid #A8A8AA;
-	color:#A8A8AA;
-	border-radius: 20px;
-	font-weight: 400;
-	padding:5px 10px 5px 10px;
-	width: 95px;
-	text-align: center;
+#wrapper12 {
+	max-width:720px;
+	margin:0 auto;
+	height: 100vh;
 }
-
-radio input[type="radio"]:checked + label {
-	border:2px solid #4E88C7;
-	font-weight: bold;
-	color:#4E88C7;
-} */
-
-#container {
-    margin: 0 auto;
-    max-width: 720px;
-    -webkit-box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.15);
-    box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.15);
-	height: auto;
-	position: relative;
-	
-}
-
-.start_btn {
-position: absolute;
-left: 50%;
-top: 85%;
-max-width: 106px;
-transform: translate( -50%, -50% );
- }
-
- #myModal, #myModal2, #myModal3, #myModal4, #myModal5, #myModal6, #myModal7 {
-	position: absolute;
-	top:0;
-	margin: 0 auto;
-	max-width: 720px;
-	height: auto;
+/* 닫기버튼 시작 */
+#alert_back {
 	display:none;
-	width:100%
+	position:absolute;
+	width:100%;
+	height:100%;
+	min-width:360px;
+	max-width:720px;
+	z-index:999;
 }
-
-
-
-.gender {
-		position: absolute;
-		top: 41%;
-		left: 15%;
-        color: #fff;
-        font-size: 14px;
-        font-family: NotoSansCJKkr-Medium, Noto Sans CJK KR;
-        font-weight: 500;
-        letter-spacing: -0.02em;
-        
-      }
-
-
-.check { opacity: 1;color:white;}
-		
-.uncheck { opacity: 0.7}
-
-label {opacity:0.7}
-
-
-#c_alert { display:none; position: absolute; max-width: 720px; width:100%; z-index: 1000; top:20%; height:240px; background-image:url('/resource/images/main/close_alert2.svg');background-position:center;background-repeat:no-repeat;}
-#c_alert2 { display:none; position: absolute; max-width: 720px; width:100%; z-index: 1000; top:20%; height:240px; background-image:url('/resource/images/main/close_alert3.svg');background-position:center;background-repeat:no-repeat;border-bottom-left-radius: 14px;border-bottom-right-radius: 14px;}
-#alert_back { display:none; position: absolute; max-width: 720px; width:100%; z-index: 999; height:100%; }
-.q_close { position: absolute; margin: 16px; max-width: 48vw; }
-.q_title { position: absolute; top: 27%; left: 13%; min-width: 240px;font-size: 18px;
-        font-family: NotoSansCJKkr-Medium, Noto Sans CJK KR;color:#fff;}
-.q_title p {margin:0;}
-.q_sub_title { position: absolute; left: 13%; color:white;}
-.btn_next { position: absolute; left: 10%; top: 60%; max-width: 104px; display: none;}
-.btn_main { position: absolute; left:10%; top: 45%; min-width: 160px;}
-.btn_prev { position: absolute; left:5%; top: 60%; max-width: 104px;}
-.percentage {position:absolute; bottom:32px; max-width: 688px;margin:0 16px 0 16px; width:auto;}
-.name_text { 
-        position:absolute; top:50%; left:13%; max-width: 248px;
-        color: #fff;
-        font-size: 16px;
-        font-family: NotoSansCJKkr-Medium, Noto Sans CJK KR;
-        font-weight: 500;
-        letter-spacing: -0.02em;
-        
- }
-.date_text { 
-        position:absolute; top:50%; left:13%; max-width: 248px; 
-        color: #fff;
-        font-size: 16px;
-        font-family: NotoSansCJKkr-Medium, Noto Sans CJK KR;
-        font-weight: 500;
-        letter-spacing: -0.02em;
-        
-        }
-.splash_title { position:absolute; top:27%;left:25%;color:#fff;font-size:20px;font-family:Sandoll GongbyunggakPen, Sandoll GongbyunggakPen;font-weight:500;}
-
+#alert_back1 {
+	width:100%;
+}
+#c_alert {
+	display:none;
+	position:absolute;
+	max-width:720px;
+	width:100%;
+	height:240px;
+	z-index:1000;
+	top:18%;
+	background-image:url('/resource/images/main/close_alert2.svg');
+	background-size:cover;
+	border-bottom-left-radius:14px;
+	border-bottom-right-radius:14px;
+}
 .c_btn {
-        max-width:360px;
-        float:left;
-        margin-top:192px;
+	position:absolute;
+	top:80%;
+	border-bottom-left-radius:14px;
+}
+.c_btn1 {
+	position:absolute;
+	top:80%;
+	right:0%;
+	border-bottom-right-radius:14px;
+}
+#c_alert2 {
+	display:none;
+	position:absolute;
+	max-width:720px;
+	width:100%;
+	z-index:1000;
+	top:18%;
+	height:240px;
+	background-image:url('/resource/images/main/close_alert3.svg');
+	background-position:center;
+	background-repeat:no-repeat;
+	border-bottom-left-radius:14px;
+	border-bottom-right-radius: 14px;
+}
+/* 닫기버튼 끝 */
+/* 메인 시작 */
+#container1 {
+	position:relative;
+	background-image:url('/resource/images/main/splash112.svg');
+	background-size:cover;
+	height:100%;
+}
+#container2,#container3,#container4,#container5,#container6,#container7,#container8 {
+	position:relative;
+	background-image:url('/resource/images/main/splash113.svg');
+	background-size:cover;
+	height:100%;
+	display: none;
+}
+/* 공용 */
+.close_btn {
+	position:absolute;
+	top:2.6%;
+	left:4.5%;
+	max-width:6.6%;
+	height:auto
+}
+.marks {
+	position:absolute;
+	top:1%;
+	left:4.5%;
+	font-family:NotoSansCJKkr-Medium,Noto Sans CJK KR;
+	font-size:18.44vh;
+	color:rgba(255,255,255,0.26);
+}
+.container_ment {
+	position: absolute;
+	top: 26.5%;
+	left: 13.34%;
+	font-size:2.8vh;
+	font-family:NotoSansCJKkr-Medium,Noto Sans CJK KR;
+	color:#fff;
+}
+.container_ment2 {
+	position:absolute;
+	font-size:2.8vh;
+	top:26.5%;
+	left:13.34%;
+	font-family:NotoSansCJKkr-Medium,Noto Sans CJK KR;
+	color:#fff;
+}
+.next_btn1 {
+	position:absolute;
+	top:61.3%;
+	left:37.3%;
+	max-width:28.8%;
+	height:auto;
+	display:none;
+}
+.btn_prev {
+	position:absolute;
+	top:61.3%;
+	left:10.3%;
+	max-width:28.8%;
+	height:auto;
+}
+.bottom_bar {
+	position:absolute;
+	left:4.5%;
+	bottom:9%;
+	right:4.5%;
+	max-width:91.1%;
+	height:auto
+}
+.text_enter {
+	position:absolute;
+	top:48%;
+	left:16%;
+	width:477px;
+	max-width:67.8%;
+	height:auto;
+	border-radius:0px;
+	border-bottom:2px solid #FFFFFF;
+	background:none;
+	border-top:none;
+	border-right:none;
+	border-left:none;
+	color:#FFFFFF;
+	font-size:2.8vh;
+	font-family:NotoSansCJKkr-Medium,Noto Sans CJK KR;
+	font-weight:500;
+	letter-spacing:-0.02em;
+	opacity:0.7;
+	background-image:url('/resource/images/main/ic_check_disable.png');
+	background-position:right 0px;
+	background-repeat:no-repeat;
+}
+.check {
+	opacity:1;
+	color:white
+}
+.uncheck {
+	opacity:0.7
+}
+label {
+	opacity:0.7
+}
+input::placeholder {
+	color:white;
+	font-size: 2vh;
+}
+/* 예약번호 페이지 */
+.date_text{
+	font-size: 2.8vh;
+	font-family:NotoSansCJKkr-Medium,Noto Sans CJK KR;
+	font-weight: 500;
+	letter-spacing: -0.02em;
 }
 
-input::placeholder {
-  color: #fff;
+
+
+
+
+
+/* 첫번째 화면 */
+.splash_title {
+	position:absolute;
+	top:26%;
+	left:50%;
+	transform:translatex(-50%);
+	max-width:47.2%;
+	height:auto;
 }
+.splash_bottom {
+	position:absolute;
+	top:34%;
+	left:50%;
+	transform:translatex(-50%);
+	max-width:37.2%;
+	height:auto;
+}
+.splash_middle {
+	position:absolute;
+	top:93%;
+	left:50%;
+	transform:translatex(-50%);
+	max-width:76.6%;
+	height:auto;
+}
+.start_btn {
+	position:absolute;
+	top:83%;
+	left:50%;
+	transform:translatex(-50%);
+	max-width:29.4%;
+	height: auto;
+}
+/* 첫번째 화면 끝 */
+/* 두번째 화면 */
+.div_p1 {
+	position:absolute;
+	top:45.5%;
+	left:13.34%
+}
+.q_sub_title {
+	top:293px;
+	left:48px;
+	color:white;
+	font-family:NotoSansCJKkr-Medium,Noto Sans CJK KR;
+	font-size:1.8vh;
+	opacity:1;
+	color:white
+}
+.q_sub_title1 {
+	top:325px;
+	left:48px;
+	color:white;
+	font-family:NotoSansCJKkr-Medium,Noto Sans CJK KR;
+	font-size:1.8vh;
+	opacity:1;
+	color:white
+}
+.next_btn {
+	position:absolute;
+	top:61.3%;
+	left:10.3%;
+	max-width:28.8%;
+	height:auto;
+	display: none
+}
+/* 두번째 화면 끝 */
+/* 세번째 화면 */
+.div_p2 {
+	position:absolute;
+	top:45.5%;
+	left:13.34%
+}
+.q_sub_title2 {
+	color:white;
+	font-family:NotoSansCJKkr-Medium,Noto Sans CJK KR;
+	font-size: 1.8vh;
+}
+/* 세번째 화면 끝 */
+/* 네번째 화면 */
+/* 네번째 화면 끝 */
+/* 다섯번째 화면 */
+/* 다섯번째 화면 끝 */
+/* 여섯번째 화면 */
+.div_p3 {
+	position:absolute;
+	top:44.5%;
+	left:17.34%
+}
+.gender {
+	color:white;
+	font-family:NotoSansCJKkr-Medium,Noto Sans CJK KR;
+	font-size: 1.8vh;
+}
+/* 여섯번째 화면 끝 */
+/* 일곱번째 화면 */
+.baby {
+	position:absolute;
+	font-size:0.2vh;
+	top:36.5%;
+	left:13.34%;
+	font-family:NotoSansCJKkr-Medium,Noto Sans CJK KR;
+	color:#fff;
+}
+.div_p4 {
+	position:absolute;
+	top:45.5%;
+	left:13.34%
+}
+.gender2 {
+	color:white;
+	font-family:NotoSansCJKkr-Medium,Noto Sans CJK KR;
+	font-size: 1.8vh;
+}
+/* 일곱번째 화면 끝 */
+/* 여덟번째 화면 */
+.splash_end {
+	position:absolute;
+	top:47.7%;
+	left: 9%
+}
+/* 여덟번째 화면 끝 */

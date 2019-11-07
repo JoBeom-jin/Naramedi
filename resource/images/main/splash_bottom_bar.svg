@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="328" height="25" viewBox="0 0 328 25">
+  <g id="그룹_1304" data-name="그룹 1304" transform="translate(-16 -583)">
+    <text id="_1_5" data-name="1/5" transform="translate(63 595)" fill="#fff" font-size="10" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" letter-spacing="-0.02em"><tspan x="0" y="0">1/5</tspan></text>
+    <g id="visual_indicator_bar" data-name="visual_indicator bar" transform="translate(16 600)">
+      <rect id="사각형_649" data-name="사각형 649" width="328" height="8" rx="4" fill="#f1f1f1"/>
+      <rect id="사각형_648" data-name="사각형 648" width="66" height="8" rx="4" fill="#00a7af"/>
+    </g>
+  </g>
+</svg>

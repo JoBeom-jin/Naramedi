@@ -1,5 +1,5 @@
 
-<body>
+<body style="margin: 0px 0px 0px 0px;">
 
 <?php include_once($_SERVER['DOCUMENT_ROOT']."/application/custom_php/custom_func.php"); ?>
 
@@ -10,47 +10,8 @@
         <p style="margin:0;"><span id="my_name">김영희</span>님의</p>
         <p>주변 검진기관입니다.</p>
         </div>
-
-        <!-- <div class="col-4">
-                <img  style="float:left;" src="/resource/images/app_main/gps.svg">
-                <span>서울시 서초구</span>
-        </div> -->
-
         </div>
-
-
-        
-        
-        <!-- <div class="scrollbar" id="style-2">
-      <div class="force-overflow">
-      <div class="box" style="left:16px;">
-        <img src = "/resource/images/app_main/visual_indicator.svg">
-        <p class="card_sub_title">서울시 서초구 잠원로 94 …dddd</p>
-        <p class="card_title">한신메디피아</p>
-        </div>
-
-        <div class="box" style="left:16px;">
-        <img src = "/resource/images/app_main/visual_indicator.svg">
-        <p class="card_sub_title">서울시 서초구 잠원로 94 …dddd</p>
-        <p class="card_title">한신메디피아</p>
-        </div>
-
-        <div class="box" style="left:16px;">
-        <img src = "/resource/images/app_main/visual_indicator.svg">
-        <p class="card_sub_title">서울시 서초구 잠원로 94 …dddd</p>
-        <p class="card_title">한신메디피아</p>
-        </div>
-
-        <div class="box" style="left:16px;">
-        <img src = "/resource/images/app_main/visual_indicator.svg">
-        <p class="card_sub_title">서울시 서초구 잠원로 94 …dddd</p>
-        <p class="card_title">한신메디피아</p>
-        </div>
-        </div>
-    </div> -->
-
     
-        
 
     <div class="scrollbar" id="style-2">
         <div class="row main_slide col-lg-12 col-md-12 col-sm-12">
@@ -96,12 +57,12 @@
         </div>
 
         <div class="row" style="bottom:0;position:fixed;background-color:#fff;z-index:99;cursor:pointer;border-top:1px solid #F1F1F1;height:56px;width:100%;margin:0">
-                <img src = "/resource/images/app_main/home_btn.svg"  class="col-4">
+                <img src = "/resource/images/app_main/home_btn.svg"  class="col-4" style="width:32%">
 
 
-                <img onclick="search()" src ="/resource/images/app_main/hospital_btn.svg" class="col-4">
+                <img onclick="search()" src ="/resource/images/app_main/hospital_btn.svg" class="col-4" style="width:32%">
         
-                <img src = "/resource/images/app_main/info_btn2.svg" class="col-4" onclick="info_open()">
+                <img src = "/resource/images/app_main/info_btn2.svg" class="col-4" onclick="info_open()" style="width:32%">
         </div>
 
         <div style="text-align:center;padding:0;">
@@ -200,6 +161,7 @@
                 <ul class="menu">
                         <li onclick="my_open()">내 정보<span><img src="/resource/images/app_main/my_profile/ic_more.svg" style="float:right;margin-right:16px;"></span></li>
                         <li onclick="my_open2()">간편 문진 정보<span><img src="/resource/images/app_main/my_profile/ic_more.svg" style="float:right;margin-right:16px;"></span></li>
+                        <li onclick="my_open2_1()">검진결과 보기<span><img src="/resource/images/app_main/my_profile/ic_more.svg" style="float:right;margin-right:16px;"></span></li>
                         <li onclick="my_open3()">상담신청내역<span><img src="/resource/images/app_main/my_profile/ic_more.svg" style="float:right;margin-right:16px;"></span></li>
                         <li onclick="my_open4()">관심병원목록<span><img src="/resource/images/app_main/my_profile/ic_more.svg" style="float:right;margin-right:16px;"></span></li>
                         <li onclick="my_open5()">약관 및 정책<span><img src="/resource/images/app_main/my_profile/ic_more.svg" style="float:right;margin-right:16px;"></span></li>
